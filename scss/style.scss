@@ -1,0 +1,28 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+// importamos los archivos secundarios
+@import"utilidades/variables";
+@import"html/index";
+@import"utilidades/mixin";
+
+/* estilos de formulario */
+.form_uno{
+    @include formulario;
+}
+
+/*estilos de historia*/
+
+@include historia;
+
+/*estilos de indumentaria*/
+
+@include indumentaria;
+
+/* estilos de condiciones */
+
+@include condiciones;

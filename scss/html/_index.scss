@@ -1,0 +1,65 @@
+@import"utilidades/mixin";
+
+header{
+    
+        background: $color-fondo;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    h1{
+        height: 50px;
+        background-color: $color-h1-fondo;
+    }
+    h2{
+        display: inline-block;
+        align-items: center;
+    }
+    nav{
+        ul{
+           
+                display: none;
+                    
+                @include tablet;
+                @include desktop;                }
+            
+        }
+    }
+    
+    
+
+main{
+    img{
+        display: inline;
+        width: 100%;
+        
+        // @include mobile{
+        //     display: none;
+        // }
+
+    }
+    section{
+        div{
+            .boton_1{
+                // margin-left: 200px;
+                background-color: $color-boton;
+                color: $color-fondo;
+                padding: 0.1rem;
+                box-shadow: 1px 1px 5px black;
+                text-shadow: 1px 1px 5px black;   
+            }
+        }
+    }
+
+}
+footer{
+    h3{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: $blue;
+    }
+
+}
+
+// @include tablet{
+// display: none;
+// }
+

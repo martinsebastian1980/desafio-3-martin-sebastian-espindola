@@ -1,0 +1,237 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* estilos de formulario */
+/*estilos de historia*/
+/* estilos de indumentaria */
+/* estilos de condiciones */
+header {
+  background: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+  header h1 {
+    height: 50px;
+    background-color: #a4cbdf; }
+  header h2 {
+    display: inline-block;
+    align-items: center; }
+  header nav ul {
+    display: none; }
+    @media screen and (min-width: 768px) and (max-width: 851px) {
+      header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 4rem; }
+        header nav ul:hover {
+          background-color: #51B0DF;
+          font-weight: bold;
+          box-shadow: 1px 1px 2px black;
+          color: #77708b;
+          transform: scale(0.9); } }
+    @media screen and (min-width: 992px) {
+      header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 4rem; }
+        header nav ul:hover {
+          background-color: #51B0DF;
+          font-weight: bold;
+          box-shadow: 1px 1px 2px black;
+          color: #77708b;
+          transform: scale(0.9); } }
+
+main img {
+  display: inline;
+  width: 100%; }
+
+main section div .boton_1 {
+  background-color: #51B0DF;
+  color: whitesmoke;
+  padding: 0.1rem;
+  box-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 5px black; }
+
+footer h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: blue; }
+
+/* estilos de formulario */
+/*estilos de historia*/
+/* estilos de indumentaria */
+/* estilos de condiciones */
+/* estilos de formulario */
+.form_uno {
+  width: 650px;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: #51B0DF;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px; }
+  .form_uno h4 {
+    color: #547979;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px; }
+  .form_uno input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px; }
+  .form_uno textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    max-width: 100%; }
+  .form_uno .boton {
+    background-color: #4c758b;
+    color: #a4cbdf;
+    padding: 20px;
+    width: 300px; }
+  .form_uno .boton:hover {
+    cursor: pointer; }
+
+/*estilos de historia*/
+.titulo {
+  background-color: #a4cbdf;
+  width: 100%;
+  height: 80px;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  padding: 10px;
+  padding-left: 1cm;
+  align-items: center; }
+
+.desarrollo1 {
+  display: grid;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  width: 1100px;
+  height: 300px;
+  gap: 20px;
+  grid-template-areas: "img1 text text" "img1 text text" "img1 frase2 img2" "frase1 frase2 img2" "text2 text2 text2"; }
+
+.parrafo {
+  background-color: #a4cbdf;
+  grid-area: text;
+  width: 800px;
+  height: 160px;
+  color: #5f82b9;
+  padding: 20px;
+  font-size: 18px; }
+
+.img_1 {
+  grid-area: img1;
+  width: 350px;
+  height: 200px; }
+
+.frase_1 {
+  background-color: #a4cbdf;
+  grid-area: frase1;
+  width: 350px;
+  height: 150px;
+  padding: 4px;
+  color: #5f82b9;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center; }
+
+.frase_2 {
+  background-color: #a4cbdf;
+  grid-area: frase2;
+  width: 390px;
+  height: 263px;
+  color: #5f82b9;
+  padding-left: 1cm;
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: bold; }
+
+.img_2 {
+  grid-area: img2;
+  width: 400px;
+  height: 260px; }
+
+/*estilos de indumentaria*/
+.title text-center py-5 {
+  background-color: #a4cbdf; }
+
+.indumentaria {
+  width: 100%;
+  height: 430px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto; }
+
+.indumentaria .indu {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px black;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s; }
+
+.indumentaria .indu:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px black; }
+
+.indumentaria .indu img {
+  width: 330px;
+  height: 220px; }
+
+.indumentaria .indu h4 {
+  font-weight: 700; }
+
+.indumentaria .indu p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300; }
+
+/* estilos de condiciones */
+.Container_general {
+  background-color: #a4cbdf;
+  height: 650px; }
+
+.Titulo_TyC {
+  color: #506993;
+  font-size: 20px;
+  text-align: center; }
+
+.Titulo_dos {
+  color: #445c83;
+  font-size: 25px;
+  width: 300px;
+  text-align: center;
+  text-decoration: underline; }
+
+.texto_Prin {
+  background-color: #a4cbdf;
+  color: #506485;
+  line-height: 1cm;
+  border: 2px solid #506485;
+  padding: 1px 1px 1px 1px;
+  text-align: center; }
+
+.final_Pag {
+  background-color: #a4cbdf;
+  color: #506485;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  text-align: right;
+  width: max-content;
+  border: 2px solid #506485; }
